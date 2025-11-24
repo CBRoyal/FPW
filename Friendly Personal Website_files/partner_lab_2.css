@@ -1,0 +1,28 @@
+:root{
+    --bg-color: #808080; 
+    --text-color: #00ffff;
+    --text-shadow-color: #deb887;
+}
+
+html{
+    background-color: var(--bg-color);
+}
+#greeting{
+   color: var(--text-color);
+   text-shadow: 1px 1px var(--text-shadow-color);
+   font-family: "Dancing Script", cursive;
+   font-size: 55px;
+} 
+p, label, #to_do_list{
+    color: var(--text-color);
+    text-shadow: 1px 1px var(--text-shadow-color);
+    font-family: "Dancing Script", serif;
+    font-size: 30px;
+}
+input, select, option{
+    background-color: var(--text-shadow-color);
+    border: 3px dashed var(--text-color);
+    color: var(--text-color);
+    font-family: "Dancing Script", serif;
+    font-size: 30px;
+}

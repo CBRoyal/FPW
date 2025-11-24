@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!-- saved from url=(0076)file:///C:/Users/Balas/OneDrive/Caleb_Balas_Partner_Lab_2/partner_lab_2.html -->
+<html lang="en" id="personal_greeting_webpage"><!--Header title and links to my other files.--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <title>Friendly Personal Website</title>
+        <link rel="stylesheet" type="text/css" href="./Friendly Personal Website_files/partner_lab_2.css">
+        <script src="./Friendly Personal Website_files/partner_lab_2.js" defer></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    </head>
+<!--Greeting and welcome messages.-->
+    <body>
+        <h2 id="greeting">Hello User!</h2>
+        <p id="welcome_message">&nbsp;</p>
+<!--Input files that will allow the user to customize the webpage and their greeting.-->
+        <label for="name">What is your name: </label>
+        <input type="text" id="name" name="User Name"><br><br>
+        <label for="message">What message would you like to share to yourself: </label>
+        <input type="text" id="message" name="Greeting Message"><br><br>
+        <label for="color_list">How would you like to color the background: </label>
+        <select name="background_color_list" id="color_list">
+            <option value="red">Red</option>
+            <option value="orange">Orange</option>
+            <option value="yellow">Yellow</option>
+            <option value="green">Green</option>
+            <option value="blue">Blue</option>
+            <option value="purple">Purple</option>
+            <option value="black">Black</option>
+            <option value="white">White</option>
+            <option value="pink">Pink</option>
+            <option value="saddleBrown">SaddleBrown</option>
+            <option value="grey">Grey</option>
+            <option value="gold">Gold</option>
+        </select><br><br>
+        <input type="button" value="Submit" onclick="renderWebpage();"><br><br>
+        <label for="to_do_list_item">What's on your agenda for today: </label>
+        <input type="text" id="to_do_list_item" name="Items to Do"><br><br>
+        <input type="button" value="Add to List" onclick="addItem();"><br><br>
+        <ol id="to_do_list">
+        </ol>
+        <footer id="personal_webpage_footer">
+            <p><a href="https://www.psu.edu/copyright-information">&copy; 2025 The Penn State University</a>&middot; <a href="https://www.infinityfree.com/">Copyright &copy; 2016-2025 InfinityFree</a>. All rights reserved.</p>
+            <p>If you want to see where this webpage is stored, then click the link down below to go
+               to the web storage portfolio to view where it's stored.</p>
+            <p><a href="https://cbroyal.github.io/cbwebportfolio.gifthub.io/#">https://cbroyal.github.io/cbwebportfolio.gifthub.io/#</a></p>
+        </footer>
+</body></html>
