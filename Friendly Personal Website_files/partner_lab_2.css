@@ -6,7 +6,6 @@
 }
 
 html{
-    width: 100%;
     background-color: var(--bg-color);
 }
 #greeting{
@@ -33,4 +32,12 @@ input, select, option{
 }
 .footer_links:hover{
     color: var(--footer-link-hover-color);
+}
+@media (max-width: 500px){
+    #greeting{
+        font-size: 75px;
+    }
+    p, label, #to_do_list, input, select, option{
+        font-size: 60px;
+    }
 }
