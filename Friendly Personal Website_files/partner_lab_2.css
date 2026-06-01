@@ -2,6 +2,7 @@
     --bg-color: #808080; 
     --text-color: #00ffff;
     --text-shadow-color: #deb887;
+    --footer-link-hover-color: #7cfc00;
 }
 
 html{
@@ -25,4 +26,10 @@ input, select, option{
     color: var(--text-color);
     font-family: "Dancing Script", serif;
     font-size: 30px;
+}
+.footer_links, .footer_links:visited{
+    color: var(--text-color);
+}
+.footer_links:hover{
+    color: var(--footer-link-hover-color);
 }
