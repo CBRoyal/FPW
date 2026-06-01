@@ -34,10 +34,10 @@ input, select, option{
     color: var(--footer-link-hover-color);
 }
 @media (max-width: 500px){
-    #greeting{
-        font-size: 100px;
-    }
     p, label, #to_do_list, input, select, option{
         font-size: 60px;
+    }
+    #personal_webpage_footer{
+        margin-top: 157px;
     }
 }
