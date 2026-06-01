@@ -35,7 +35,7 @@ input, select, option{
 }
 @media (max-width: 500px){
     p, label, #to_do_list, input, select, option{
-        font-size: 60px;
+        margin-top: 55px;
     }
     #personal_webpage_footer{
         margin-top: 157px;
