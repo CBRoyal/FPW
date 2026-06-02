@@ -5,8 +5,9 @@
     --footer-link-hover-color: #7cfc00;
 }
 
-html{
+body{
     background-color: var(--bg-color);
+    height: 100%;
 }
 #greeting{
    color: var(--text-color);
@@ -32,12 +33,4 @@ input, select, option{
 }
 .footer_links:hover{
     color: var(--footer-link-hover-color);
-}
-@media (max-width: 500px){
-    p, label, #to_do_list, input, select, option{
-        margin-top: 55px;
-    }
-    #personal_webpage_footer{
-        margin-top: 157px;
-    }
 }
