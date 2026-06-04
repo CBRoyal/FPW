@@ -36,9 +36,9 @@ input, select, option{
 }
 @media (max-width: 500px){
     #greeting{
-        font-size: 190px;
+        font-size: 340px;
     }
     p, label, #to_do_list, input, select, option{
-        font-size: 165px;
+        font-size: 315px;
     }
 }
