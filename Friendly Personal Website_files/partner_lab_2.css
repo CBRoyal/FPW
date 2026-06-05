@@ -7,7 +7,6 @@
 
 body{
     background-color: var(--bg-color);
-    height: 100%;
 }
 #greeting{
    color: var(--text-color);
@@ -35,10 +34,7 @@ input, select, option{
     color: var(--footer-link-hover-color);
 }
 @media (max-width: 500px){
-    #greeting{
-        font-size: 340px;
-    }
-    p, label, #to_do_list, input, select, option{
-        font-size: 315px;
+    body{
+        height: 150%;
     }
 }
