@@ -35,6 +35,6 @@ input, select, option{
 }
 @media (max-width: 500px){
     body{
-        height: 350%;
+        height: 550%;
     }
 }
