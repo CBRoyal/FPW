@@ -33,7 +33,7 @@ input, select, option{
 .footer_links:hover{
     color: var(--footer-link-hover-color);
 }
-@media (max-width: 500px){
+@media screen and (max-width: 500px){
     body{
         height: 1000%;
     }
